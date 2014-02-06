@@ -12,6 +12,9 @@
 
 @interface Fraction : NSObject
 
+// (-) = instance method
+// (+) = class method
+// (return type here)
 -(void) print;
 -(void) setNumerator: (int) n;
 -(void) setDenominator: (int) d;
